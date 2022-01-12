@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Blaze Demo]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Book Flight(failed)">
+    <classes>
+      <class name="com.maersk.assignment.tests.OpenWeatherAPITest">
+        <methods>
+          <include name="getWeatherData"/>
+        </methods>
+      </class> <!-- com.maersk.assignment.tests.OpenWeatherAPITest -->
+    </classes>
+  </test> <!-- Book Flight(failed) -->
+</suite> <!-- Failed suite [Blaze Demo] -->
