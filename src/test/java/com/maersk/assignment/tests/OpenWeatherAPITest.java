@@ -9,10 +9,8 @@ import org.testng.annotations.Test;
 import com.google.gson.Gson;
 import com.maersk.assignment.api.OpenWeatherAPI;
 import com.maersk.assignment.helper.ReadExcel;
-import com.maersk.assignment.model.Weather;
 import com.maersk.assignment.model.WeatherData;
 
-import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
 public class OpenWeatherAPITest {
